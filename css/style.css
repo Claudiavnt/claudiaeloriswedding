@@ -252,7 +252,7 @@ figure {
 }
 
 #fh5co-counter,
-#fh5co-event,
+#cl-event,
 .fh5co-bg {
   background-size: cover;
   background-position: top center;
@@ -385,24 +385,24 @@ figure {
 }
 
 #fh5co-counter,
-#fh5co-event {
+#cl-event {
   height: 700px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
-#fh5co-event .display-t,
-#fh5co-event .display-tc {
+#cl-event .display-t,
+#cl-event .display-tc {
   height: 700px;
   display: table;
   width: 100%;
 }
 #fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#cl-event .fh5co-heading h2 {
   color: #fff;
 }
 #fh5co-counter .fh5co-heading span,
-#fh5co-event .fh5co-heading span {
+#cl-event .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   font-size: 13px;
@@ -410,7 +410,7 @@ figure {
   font-weight: 600;
 }
 #fh5co-counter .overlay,
-#fh5co-event .overlay {
+#cl-event .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -422,7 +422,7 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-event .overlay {
+  #cl-event .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -444,14 +444,14 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
-  #fh5co-event {
+  #cl-event {
     height: inherit;
     padding: 7em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
-  #fh5co-event .display-t,
-  #fh5co-event .display-tc {
+  #cl-event .display-t,
+  #cl-event .display-tc {
     height: inherit;
   }
 
@@ -460,7 +460,7 @@ figure {
   }
 }
 #fh5co-counter .event-wrap,
-#fh5co-event .event-wrap {
+#cl-event .event-wrap {
   padding: 30px;
   width: 100%;
   float: left;
@@ -472,17 +472,17 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
-  #fh5co-event .event-wrap {
+  #cl-event .event-wrap {
     margin-bottom: 10px;
   }
 
-  #fh5co-event .event-wrap.color {
+  #cl-event .event-wrap.color {
     margin-bottom: 10px;
     margin-right: 25px;
   }
 }
 #fh5co-counter .event-wrap h3,
-#fh5co-event .event-wrap h3 {
+#cl-event .event-wrap h3 {
   font-size: 20px;
   color: #7c7b7c;
   border-bottom: 1px solid #7c7b7c;
@@ -493,18 +493,18 @@ figure {
 }
 #fh5co-counter .event-wrap p,
 #fh5co-counter .event-wrap span,
-#fh5co-event .event-wrap p,
-#fh5co-event .event-wrap span {
+#cl-event .event-wrap p,
+#cl-event .event-wrap span {
   display: block;
   color: #7c7b7c;
 }
 #fh5co-counter .event-wrap i,
-#fh5co-event .event-wrap i {
+#cl-event .event-wrap i {
   color: #7c7b7c;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
-#fh5co-event .event-wrap .event-col {
+#cl-event .event-wrap .event-col {
   width: 50%;
   float: left;
   margin-bottom: 30px;
@@ -696,7 +696,7 @@ figure {
     right: auto;
   }
 }
-#fh5co-gallery-list {
+#cl-gallery-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -711,7 +711,7 @@ figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-gallery-list li {
+#cl-gallery-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -729,18 +729,18 @@ figure {
   border-radius: 7px;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
+  #cl-gallery-list li {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+#cl-gallery-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#cl-gallery-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -757,10 +757,10 @@ figure {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#cl-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#cl-gallery-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -769,37 +769,37 @@ figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #cl-gallery-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#cl-gallery-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#cl-gallery-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #cl-gallery-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
+#cl-gallery-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #cl-gallery-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #cl-gallery-list li.one-third {
     width: 100%;
   }
 }
@@ -1054,14 +1054,14 @@ form label {
   /* words */
 }
 
-#fh5co-testimonial,
+#cl-lista,
 #fh5co-services,
-#fh5co-started,
+#cl-contatti,
 #fh5co-footer,
-#fh5co-event,
+#cl-event,
 #fh5co-couple-story,
 #fh5co-couple,
-#fh5co-gallery,
+#cl-gallery,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
@@ -1070,14 +1070,14 @@ form label {
   #fh5co-couple {
     margin-top: 27%;
   }
-  #fh5co-testimonial,
+  #cl-lista,
   #fh5co-services,
-  #fh5co-started,
+  #cl-contatti,
   #fh5co-footer,
-  #fh5co-event,
+  #cl-event,
   #fh5co-couple-story,
   #fh5co-couple,
-  #fh5co-gallery,
+  #cl-gallery,
   .fh5co-section {
     padding: 3em 0;
   }
@@ -1274,24 +1274,24 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#fh5co-testimonial .wrap-testimony {
+#cl-lista .wrap-testimony {
   position: relative;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide {
+#cl-lista .wrap-testimony .testimony-slide {
   text-align: center;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide span {
+#cl-lista .wrap-testimony .testimony-slide span {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   display: block;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
+#cl-lista .wrap-testimony .testimony-slide span a.twitter {
   color: #f14e95;
   font-weight: 300;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide figure {
+#cl-lista .wrap-testimony .testimony-slide figure {
   margin-bottom: 10px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1300,7 +1300,7 @@ form label {
   width: 100px;
   height: 100px;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide figure img {
+#cl-lista .wrap-testimony .testimony-slide figure img {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
@@ -1308,7 +1308,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
+#cl-lista .wrap-testimony .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
   width: 50%;
@@ -1319,32 +1319,32 @@ form label {
   border-radius: 4px;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
+  #cl-lista .wrap-testimony .testimony-slide blockquote {
     width: 100%;
   }
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
+#cl-lista .wrap-testimony .testimony-slide blockquote p {
   font-style: italic;
   color: #8f989f;
   font-size: 20px;
   line-height: 1.6em;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide.active {
+#cl-lista .wrap-testimony .testimony-slide.active {
   display: block;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb {
+#cl-lista .wrap-testimony .arrow-thumb {
   position: absolute;
   top: 40%;
   display: block;
   width: 100%;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a {
+#cl-lista .wrap-testimony .arrow-thumb a {
   font-size: 32px;
   color: #dadada;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover,
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:focus,
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
+#cl-lista .wrap-testimony .arrow-thumb a:hover,
+#cl-lista .wrap-testimony .arrow-thumb a:focus,
+#cl-lista .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
 }
 
@@ -1401,10 +1401,10 @@ form label {
   margin-bottom: 10px;
 }
 
-#fh5co-started {
+#cl-contatti {
   position: relative;
 }
-#fh5co-started .overlay {
+#cl-contatti .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1415,37 +1415,37 @@ form label {
   background-repeat: no-repeat;
   background-position: center;
 }
-#fh5co-started .fh5co-heading h2 {
+#cl-contatti .fh5co-heading h2 {
   color: #fff;
 }
-#fh5co-started .fh5co-heading p {
+#cl-contatti .fh5co-heading p {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-started .form-control {
+#cl-contatti .form-control {
   font-size: 16px !important;
   width: 100%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#fh5co-started .form-control::-webkit-input-placeholder {
+#cl-contatti .form-control::-webkit-input-placeholder {
   color: #7c7b7c;
 }
-#fh5co-started .form-control:-moz-placeholder {
+#cl-contatti .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #7c7b7c;
 }
-#fh5co-started .form-control::-moz-placeholder {
+#cl-contatti .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #7c7b7c;
 }
-#fh5co-started .form-control:-ms-input-placeholder {
+#cl-contatti .form-control:-ms-input-placeholder {
   color: #7c7b7c;
 }
-#fh5co-started .form-control:focus {
+#cl-contatti .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
 }
-#fh5co-started .btn {
+#cl-contatti .btn {
   height: 54px;
   border: none !important;
   background: #cc9c37;
@@ -1456,17 +1456,17 @@ form label {
   padding-left: 50px;
   padding-right: 50px;
 }
-#fh5co-started .form-inline .form-group {
+#cl-contatti .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
 }
-#fh5co-started .form-inline .form-group .form-control {
+#cl-contatti .form-inline .form-group .form-control {
   width: 100%;
 }
-#fh5co-started .fh5co-heading {
+#cl-contatti .fh5co-heading {
   margin-bottom: 30px;
 }
-#fh5co-started .fh5co-heading h2 {
+#cl-contatti .fh5co-heading h2 {
   margin-bottom: 0;
 }
 
