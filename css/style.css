@@ -1745,6 +1745,7 @@ form label {
 
   .p-line-height {
     line-height: 1.5 !important;
+    font-size: 18px !important;
   }
   .hastag-img img {
     width: 30% !important;
@@ -2070,7 +2071,6 @@ form label {
 @media (min-width: 768px) and (max-width: 812px) {
   .simply-countdown {
     margin-top: 80%;
-    width: 93%;
   }
 
   #fh5co-couple {
@@ -2107,6 +2107,10 @@ form label {
   width: 100%;
 }
 
+.single-team-member {
+  height:641px !important;
+}
+
 .cl-palette {
   height: 370px !important;
 }
@@ -2116,4 +2120,49 @@ form label {
   height: 110px !important;
   border-radius: 100px !important;
 }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  .simply-countdown {
+    margin-top: 105%;
+    width: 100%;
+  }
+
+  #cl-event .fh5co-heading,
+  #fh5co-couple-story .fh5co-heading {
+   margin-bottom: 0em;
+  }
+
+  #cl-event .event-wrap.color {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .hastag {
+    font-family: 'great';
+    color: #cc9c37;
+    font-variant: normal;
+    font-size: 43px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .simply-countdown {
+    margin-top: 80%;
+    width: 100%;
+  }
+
+  #cl-event .fh5co-heading,
+  #fh5co-couple-story .fh5co-heading {
+   margin-bottom: 0em;
+  }
+
+  .fh5co-hastag {
+    height: 455px !important;
+  }
+
+  .family-img img{
+    width: 100%;
+  }
 }
