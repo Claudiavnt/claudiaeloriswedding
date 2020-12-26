@@ -2166,3 +2166,23 @@ form label {
     width: 100%;
   }
 }
+
+@media (min-width: 806px) and (max-width: 1090px) {
+  .simply-countdown {
+    margin-top: 85%;
+    width: 100%;
+  }
+
+  #cl-event .fh5co-heading,
+  #fh5co-couple-story .fh5co-heading {
+   margin-bottom: 0em;
+  }
+
+  .family-img img{
+    width: 100%;
+  }
+
+  .fh5co-heading p {
+    line-height: 1.2;
+  }
+}
