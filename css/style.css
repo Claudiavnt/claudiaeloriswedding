@@ -9,10 +9,10 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'candara';
-  src: url('../fonts/candara/Candara.ttf');
-  src: url('../fonts/candara/Candara.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'baskerville';
+  src: url('../fonts/baskerville/Baskerville.ttc');
+  src: url('../fonts/baskerville/Baskerville.ttc') format('truetype');
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -29,11 +29,11 @@
 *
 * ======================================================= */
 body {
-  font-family: 'candara';
+  font-family: 'baskerville';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #7F8578;
   background: #fff;
   font-variant: small-caps;
 }
@@ -151,10 +151,10 @@ figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 16px;
+  font-size: 20px;
   padding: 30px 10px;
-  text-transform: uppercase;
-  color: #7c7b7c;
+  letter-spacing: 4px;
+  color: #7F8578;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -162,7 +162,7 @@ figure {
 .fh5co-nav ul li a:hover,
 .fh5co-nav ul li a:focus,
 .fh5co-nav ul li a:active {
-  color: #71af82;
+  color: #AC887E;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -386,14 +386,14 @@ figure {
 
 #fh5co-counter,
 #cl-event {
-  height: 700px;
+  height: 370px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #cl-event .display-t,
 #cl-event .display-tc {
-  height: 700px;
+  height: 400px;
   display: table;
   width: 100%;
 }
@@ -464,7 +464,7 @@ figure {
   padding: 30px;
   width: 100%;
   float: left;
-  color: #7c7b7c;
+  color: #7F8578;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -484,8 +484,8 @@ figure {
 #fh5co-counter .event-wrap h3,
 #cl-event .event-wrap h3 {
   font-size: 20px;
-  color: #7c7b7c;
-  border-bottom: 1px solid #7c7b7c;
+  color: #7F8578;
+  border-bottom: 1px solid #7F8578;
   display: block;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -496,11 +496,11 @@ figure {
 #cl-event .event-wrap p,
 #cl-event .event-wrap span {
   display: block;
-  color: #7c7b7c;
+  color: #7F8578;
 }
 #fh5co-counter .event-wrap i,
 #cl-event .event-wrap i {
-  color: #7c7b7c;
+  color: #7F8578;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
@@ -1110,7 +1110,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #cc9c37;
+  color: #AC887E;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1244,7 +1244,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  color:#7F8578;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1429,18 +1429,18 @@ form label {
   transition: 0.5s;
 }
 #cl-contatti .form-control::-webkit-input-placeholder {
-  color: #7c7b7c;
+  color: #7F8578;
 }
 #cl-contatti .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #7c7b7c;
+  color: #7F8578;
 }
 #cl-contatti .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #7c7b7c;
+  color: #7F8578;
 }
 #cl-contatti .form-control:-ms-input-placeholder {
-  color: #7c7b7c;
+  color: #7F8578;
 }
 #cl-contatti .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
@@ -1643,11 +1643,11 @@ form label {
   display: inline-block;
   width: 25px;
   height: 2px;
-  color: #7c7b7c;
+  color: #7F8578;
   font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #7c7b7c;
+  background: #7F8578;
   transition: all 0.2s ease-out;
 }
 .fh5co-nav-toggle i::before,
@@ -1655,18 +1655,18 @@ form label {
   content: '';
   width: 25px;
   height: 2px;
-  background: #7c7b7c;
+  background: #7F8578;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
-  color: #7c7b7c;
-  background: #7c7b7c;
+  color: #7F8578;
+  background: #7F8578;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before,
 .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #7c7b7c;
+  background: #7F8578;
 }
 
 .fh5co-nav-toggle i::before {
@@ -2012,7 +2012,7 @@ form label {
 }
 .family-info {
   padding: 25px 30px;
-  background-color: #617567;
+  background-color: #7F8578;
   text-align: center;
   position: absolute;
   bottom: 15px;
@@ -2038,7 +2038,7 @@ form label {
 }
 
 .family-info h4 {
-  font-family: 'candara';
+  font-family: 'baskerville';
   font-size: 24px;
   color: #ffffff;
 }
