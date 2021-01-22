@@ -326,10 +326,12 @@ figure {
 
 .fh5co-cover {
   height: 550px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  width: 100%;
+  background-position: center;
+  width: 85%;
+  margin:0 auto;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -341,7 +343,9 @@ figure {
   height: 560px;
   background-image: url(../images/img_bg_2.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
+
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
@@ -416,9 +420,6 @@ figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -428,10 +429,6 @@ figure {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
 }
 
@@ -1006,9 +1003,9 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
+  width: 56px;
   height: 100px;
-  margin: 0 4px;
+  margin: 0 8px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1061,11 +1058,16 @@ form label {
 #cl-event,
 #fh5co-couple-story,
 #fh5co-couple,
-#cl-gallery,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
 }
+
+#cl-gallery{
+  padding: 7em 0 0 0;
+  clear: both;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-couple {
     margin-top: 27%;
@@ -1728,7 +1730,7 @@ form label {
 
 .hastag {
   font-family: 'great';
-  color: #cc9c37;
+  color: #AC887E;
   font-variant: normal;
   font-size: 75px;
 }
@@ -1751,16 +1753,17 @@ form label {
     width: 30% !important;
   }
   .fh5co-nav #fh5co-logo img {
-    width: 150px !important;
+    width: 250px !important;
+    margin-left: 25px;
   }
 
   .fh5co-nav-toggle {
-    display: block;
+    display: none;
     top: 30px;
   }
 
   .simply-countdown {
-    margin-top: 140%;
+    margin-top: 130%;
     width: 93%;
   }
 
@@ -2124,7 +2127,7 @@ form label {
 
 @media (min-width: 320px) and (max-width: 568px) {
   .simply-countdown {
-    margin-top: 105%;
+    margin-top: 200%;
     width: 100%;
   }
 
@@ -2169,7 +2172,7 @@ form label {
 
 @media (min-width: 806px) and (max-width: 1090px) {
   .simply-countdown {
-    margin-top: 85%;
+    margin-top: 80%;
     width: 100%;
   }
 
