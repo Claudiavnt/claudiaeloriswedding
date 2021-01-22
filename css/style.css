@@ -1412,10 +1412,6 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../images/background2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #cl-contatti .fh5co-heading h2 {
   color: #fff;
@@ -1450,7 +1446,7 @@ form label {
 #cl-contatti .btn {
   height: 54px;
   border: none !important;
-  background: #cc9c37;
+  background: #AC887E;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1725,7 +1721,7 @@ form label {
 }
 
 .hastag-img img {
-  width: 15%;
+  width: 13%;
 }
 
 .hastag {
@@ -2062,7 +2058,7 @@ form label {
 }
 
 .cl-palette {
-  height: 550px !important
+  height: 350px !important
 }
 
 .palette {
