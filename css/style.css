@@ -390,7 +390,6 @@ figure {
 
 #fh5co-counter,
 #cl-event {
-  height: 370px;
   float: left;
 }
 .cl-palette {
@@ -1738,9 +1737,6 @@ form label {
   font-size: 75px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-hastag {
-    height: 400px !important;
-  }
   .hastag {
     font-family: 'great';
     color: #ac887e;
@@ -1951,7 +1947,6 @@ form label {
 
   .form-control {
     box-shadow: none;
-    background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.1);
     height: 54px;
     font-size: 18px;
@@ -2170,10 +2165,6 @@ form label {
    margin-bottom: 0em;
   }
 
-  .fh5co-hastag {
-    height: 350px !important;
-  }
-
   .family-img img{
     width: 100%;
   }
@@ -2216,4 +2207,8 @@ form label {
 
 .responsive-show {
   display: none;
+}
+
+#cl-contatti {
+  background-color: #efe1da;
 }
