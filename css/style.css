@@ -65,7 +65,7 @@ body {
 }
 
 a {
-  color: #f14e95;
+  color: #efe1da;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -73,7 +73,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f14e95;
+  color: #efe1da;
   outline: none;
   text-decoration: none;
 }
@@ -96,17 +96,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f14e95;
+  background: #efe1da;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f14e95;
+  background: #efe1da;
 }
 
 ::selection {
   color: #fff;
-  background: #f14e95;
+  background: #efe1da;
 }
 
 .fh5co-nav {
@@ -225,7 +225,7 @@ figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #f14e95;
+  color: #efe1da;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -393,6 +393,9 @@ figure {
   height: 370px;
   float: left;
 }
+.cl-palette {
+  height: 310px;
+}
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #cl-event .display-t,
@@ -454,6 +457,10 @@ figure {
 
   .responsive-notshow {
     display: none;
+  }
+
+  .responsive-show {
+    display: block!important;
   }
 }
 #fh5co-counter .event-wrap,
@@ -792,7 +799,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #cl-gallery-list li.one-third {
-    width: 49%;
+    width: 32%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -830,7 +837,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f14e95;
+  color: #efe1da;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -849,7 +856,7 @@ figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #f14e95;
+  color: #efe1da;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -942,7 +949,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #f14e95;
+  color: #efe1da;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1063,8 +1070,8 @@ form label {
   clear: both;
 }
 
-#cl-gallery{
-  padding: 7em 0 0 0;
+#cl-gallery {
+  padding: 0 0 0 0;
   clear: both;
 }
 
@@ -1135,7 +1142,7 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: #f14e95;
+  color: #efe1da;
   font-size: 30px;
 }
 .couple-half .groom,
@@ -1233,7 +1240,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #f14e95;
+  color: #efe1da;
 }
 .feature-center p,
 .feature-center h3 {
@@ -1255,7 +1262,7 @@ form label {
   font-size: 80px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #f14e95;
+  color: #efe1da;
   font-family: 'great';
 }
 @media screen and (max-width: 768px) {
@@ -1290,7 +1297,7 @@ form label {
   display: block;
 }
 #cl-lista .wrap-testimony .testimony-slide span a.twitter {
-  color: #f14e95;
+  color: #efe1da;
   font-weight: 300;
 }
 #cl-lista .wrap-testimony .testimony-slide figure {
@@ -1384,7 +1391,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #f14e95;
+  color: #efe1da;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1492,7 +1499,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #f14e95;
+  border: 2px solid #efe1da;
 }
 
 #fh5co-offcanvas {
@@ -1726,7 +1733,7 @@ form label {
 
 .hastag {
   font-family: 'great';
-  color: #AC887E;
+  color: #ac887e;
   font-variant: normal;
   font-size: 75px;
 }
@@ -1736,7 +1743,7 @@ form label {
   }
   .hastag {
     font-family: 'great';
-    color: #cc9c37;
+    color: #ac887e;
     font-variant: normal;
     font-size: 50px;
   }
@@ -1746,7 +1753,7 @@ form label {
     font-size: 18px !important;
   }
   .hastag-img img {
-    width: 30% !important;
+    width: 25% !important;
   }
   .fh5co-nav #fh5co-logo img {
     width: 250px !important;
@@ -1787,9 +1794,9 @@ form label {
   }
 
   .btn-primary {
-    background: #f14e95;
+    background: #efe1da;
     color: #fff;
-    border: 2px solid #f14e95;
+    border: 2px solid #efe1da;
   }
   .btn-primary:hover,
   .btn-primary:focus,
@@ -1799,13 +1806,13 @@ form label {
   }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #f14e95;
-    border: 2px solid #f14e95;
+    color: #efe1da;
+    border: 2px solid #efe1da;
   }
   .btn-primary.btn-outline:hover,
   .btn-primary.btn-outline:focus,
   .btn-primary.btn-outline:active {
-    background: #f14e95;
+    background: #efe1da;
     color: #fff;
   }
 
@@ -1954,7 +1961,7 @@ form label {
   .form-control:focus {
     outline: none;
     box-shadow: none;
-    border-color: #f14e95;
+    border-color: #efe1da;
   }
 
   .row-pb-md {
@@ -2057,10 +2064,6 @@ form label {
   }
 }
 
-.cl-palette {
-  height: 350px !important
-}
-
 .palette {
   width: 130px !important;
   height: 130px !important;
@@ -2082,18 +2085,39 @@ form label {
   #fh5co-footer,
   #cl-event,
   #fh5co-couple-story,
-  #cl-gallery,
   .fh5co-section {
     padding: 4em 0;
     clear: both;
 }
 
+#cl-gallery{
+  padding: 2em 0;
+  clear: both;
+}
+
+.cl-palette {
+  height: 700px!important;
+}
+
+.palette-res-img {
+  background-image: url(../images/palette-res.jpg);
+  background-repeat: no-repeat;
+  height:500px!important;
+  background-size: 100%!important;
+  background-position: center;
+}
+
+
 .responsive-notshow {
   display: none;
 }
 
+.responsive-show {
+  display: block!important;
+}
+
+
 #cl-event {
-  height: 565px;
   float: left;
 }
 
@@ -2108,16 +2132,6 @@ form label {
 
 .single-team-member {
   height:641px !important;
-}
-
-.cl-palette {
-  height: 370px !important;
-}
-
-.palette{
-  width: 110px !important;
-  height: 110px !important;
-  border-radius: 100px !important;
 }
 }
 
@@ -2139,7 +2153,7 @@ form label {
 
   .hastag {
     font-family: 'great';
-    color: #cc9c37;
+    color: #ac887e;
     font-variant: normal;
     font-size: 43px;
   }
@@ -2149,7 +2163,6 @@ form label {
 @media (min-width: 768px) and (max-width: 1024px) {
   .simply-countdown {
     margin-top: 80%;
-    width: 100%;
   }
 
   #cl-event .fh5co-heading,
@@ -2158,7 +2171,7 @@ form label {
   }
 
   .fh5co-hastag {
-    height: 455px !important;
+    height: 350px !important;
   }
 
   .family-img img{
@@ -2184,4 +2197,23 @@ form label {
   .fh5co-heading p {
     line-height: 1.2;
   }
+}
+
+.palette-img {
+  background-image: url(../images/palette.jpg);
+  background-repeat: no-repeat;
+  height:300px;
+  background-size: contain;
+}
+
+.palette-res-img {
+  background-image: url(../images/palette-res.jpg);
+  background-repeat: no-repeat;
+  height:300px;
+  background-size: contain;
+  background-position: center;
+}
+
+.responsive-show {
+  display: none;
 }
