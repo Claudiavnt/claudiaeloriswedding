@@ -30,13 +30,13 @@
       var message = $("#messaggio").val();
       $.ajax({
           type: "POST",
-          url: "php/contactform-process.php",
+          url: "contactform-process.php",
           data: "nome_cognome=" + name + "&numero_persone=" + pnumber + "&messaggio=" + message,
           success: function(text) {
               if (text == "success") {
                   cformSuccess();
               } else {
-                  csubmitMSG(false, "Qualcosa è andato storto. Riprova!");
+                  csubmitMSG(false, text);
               }
           }
       });
@@ -57,11 +57,4 @@
       }
       $("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
   }
-
-
-/* Removes Long Focus On Buttons */
-$(".button, a, button").mouseup(function() {
-  $(this).blur();
-});
-
 })(jQuery);
