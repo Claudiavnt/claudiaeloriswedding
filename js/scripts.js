@@ -29,15 +29,14 @@
   var pnumber = $("#numero_persone").val();
       var message = $("#messaggio").val();
       $.ajax({
-          type: "GET",
+          type: "POST",
           url: "php/contactform-process.php",
           data: "nome_cognome=" + name + "&numero_persone=" + pnumber + "&messaggio=" + message,
           success: function(text) {
               if (text == "success") {
                   cformSuccess();
               } else {
-                  cformError();
-                  csubmitMSG(false, text);
+                  csubmitMSG(false, "Qualcosa è andato storto. Riprova!");
               }
           }
       });
