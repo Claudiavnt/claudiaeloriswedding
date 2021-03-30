@@ -1,8 +1,8 @@
 <?php
 $errorMSG = "";
 
-$EmailTo = "claudiavnt92@gmail.com";
-$Subject = "Nuova conferma da claudialoriswedding.it";
+$to = "claudiavnt92@gmail.com";
+$subject = "Nuova conferma da claudiaeloriswedding.it";
 
 // prepare email body text
 $Body = "";
@@ -11,13 +11,15 @@ $Body .= $name;
 $Body .= "\n";
 $Body .= "numero persone confermate: ";
 $Body .= $pnumber;
+$Body .= "Email: ";
+$Body .= $email;
 $Body .= "\n";
 $Body .= "Messaggio: ";
 $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$name);
+$success = mail($to, $subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){

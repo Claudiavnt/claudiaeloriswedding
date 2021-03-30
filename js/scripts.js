@@ -27,11 +27,12 @@
       // initiate variables with form content
   var name = $("#name_cognome").val();
   var pnumber = $("#numero_persone").val();
+  var email = $("#email").val();
       var message = $("#messaggio").val();
       $.ajax({
           type: "POST",
           url: "contactform-process.php",
-          data: "nome_cognome=" + name + "&numero_persone=" + pnumber + "&messaggio=" + message,
+          data: "nome_cognome=" + name + "&email=" + email + "&numero_persone=" + pnumber + "&messaggio=" + message,
           success: function(text) {
               if (text == "success") {
                   cformSuccess();
