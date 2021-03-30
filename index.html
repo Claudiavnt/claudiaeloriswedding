@@ -565,84 +565,89 @@
               <end of contact form -->
 
               <form
+                id="fs-frm"
                 class="form-inline"
-                id="contactForm"
-                data-toggle="validator"
-                data-focus="false"
+                name="basic-rsvp-form"
+                accept-charset="utf-8"
+                action="https://formspree.io/f/mlearydg"
+                method="post"
               >
-                <div class="col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="name_cognome"
-                      required
-                      class="form-control"
-                      placeholder="Nome e Cognome"
-                      required
-                    />
-                  </div>
-                </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Nuova conferma da claudiaeloriswedding.it"
                 />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://www.miosito.com/pagina-successo.html"
+                />
+                <fieldset id="fs-frm-inputs">
+                  <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        id="full-name"
+                        placeholder="Nome e Cognome"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <br class="responsive-notshow" /><br
+                    class="responsive-notshow"
+                  />
 
-                <div class="col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      id="email"
-                      required
-                      class="form-control"
-                      placeholder="email"
-                      required
-                    />
+                  <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <input
+                        type="number"
+                        class="form-control"
+                        name="attending"
+                        id="attending"
+                        required=""
+                        placeholder="Indicaci il numero delle persone per cui confermi la presenza"
+                      />
+                    </div>
                   </div>
-                </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="number"
-                      id="numero_persone"
-                      class="form-control"
-                      placeholder="Indicaci il numero delle persone per cui confermi la presenza"
-                      required
-                    />
+                  <br class="responsive-notshow" /><br
+                    class="responsive-notshow"
+                  />
+
+                  <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <textarea
+                        type="text"
+                        class="form-control"
+                        rows="4"
+                        name="plus"
+                        id="plus"
+                        required=""
+                        placeholder="Indicaci il nome delle persone per cui confermi la presenza ed eventuali intolleranze e/o allergie"
+                      ></textarea>
+                    </div>
                   </div>
-                </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <div class="col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <textarea
-                      type="text"
-                      id="messaggio"
-                      name="messaggio"
-                      class="form-control"
-                      rows="4"
-                      placeholder="Indicaci il nome delle persone per cui confermi la presenza ed eventuali intolleranze e/o allergie"
-                      style="resize: none"
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
-                <br class="responsive-notshow" /><br
-                  class="responsive-notshow"
-                />
+                  <br class="responsive-notshow" /><br
+                    class="responsive-notshow"
+                  />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    id="email-subject"
+                    value="RSVP"
+                  />
+                </fieldset>
+
                 <br class="responsive-notshow" />
                 <div class="col-md-6 col-sm-12">
-                  <button type="submit" class="btn btn-default btn-block">
+                  <button
+                    type="submit"
+                    value="RSVP"
+                    class="btn btn-default btn-block"
+                  >
                     Invia
                   </button>
-                  <div class="form-message">
-                    <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                  </div>
                 </div>
               </form>
             </div>
@@ -681,8 +686,6 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <!-- Main -->
     <script src="js/main.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- Custom scripts -->
 
     <script>
       var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
