@@ -15,8 +15,7 @@
   $("#contactForm").validator().on("submit", function(event) {
     if (event.isDefaultPrevented()) {
           // handle the invalid form...
-          cformError();
-          csubmitMSG(false, "Please fill all fields!");
+          csubmitMSG(false, "Riempi tutti i campi prima di inviare!");
       } else {
           // everything looks good!
           event.preventDefault();
@@ -26,14 +25,13 @@
 
   function csubmitForm() {
       // initiate variables with form content
-  var name = $("#cname").val();
-  var email = $("#cemail").val();
-      var message = $("#cmessage").val();
-      var terms = $("#cterms").val();
+  var name = $("#name_cognome").val();
+  var pnumber = $("#numero_persone").val();
+      var message = $("#messaggio").val();
       $.ajax({
           type: "POST",
           url: "php/contactform-process.php",
-          data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms,
+          data: "nome_cognome=" + name + "&numero_persone=" + pnumber + "&messaggio=" + message,
           success: function(text) {
               if (text == "success") {
                   cformSuccess();
@@ -47,16 +45,10 @@
 
   function cformSuccess() {
       $("#contactForm")[0].reset();
-      csubmitMSG(true, "Message Submitted!");
+      csubmitMSG(true, "Conferma inviata!");
       $("input").removeClass('notEmpty'); // resets the field label after submission
       $("textarea").removeClass('notEmpty'); // resets the field label after submission
   }
-
-  function cformError() {
-      $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-          $(this).removeClass();
-      });
-}
 
   function csubmitMSG(valid, msg) {
       if (valid) {
