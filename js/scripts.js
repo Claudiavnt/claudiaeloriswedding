@@ -29,7 +29,7 @@
   var pnumber = $("#numero_persone").val();
       var message = $("#messaggio").val();
       $.ajax({
-          type: "POST",
+          type: "GET",
           url: "php/contactform-process.php",
           data: "nome_cognome=" + name + "&numero_persone=" + pnumber + "&messaggio=" + message,
           success: function(text) {
