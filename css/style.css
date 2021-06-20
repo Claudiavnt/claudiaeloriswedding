@@ -65,7 +65,7 @@ body {
 }
 
 a {
-  color: #efe1da;
+  color: #ac887e;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -75,7 +75,7 @@ a:active,
 a:focus {
   color: #efe1da;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -170,6 +170,7 @@ figure {
 .fh5co-nav ul li a:focus,
 .fh5co-nav ul li a:active {
   color: #AC887E;
+  text-decoration: none;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -2121,11 +2122,11 @@ form label {
 }
 
 #cl-event .fh5co-heading,
-#fh5co-couple-story .fh5co-heading {
+#cl-accesso.fh5co-heading {
   margin-bottom: 0em;
 }
 
-#fh5co-couple-story .family-img .img-fluid {
+#cl-accesso.family-img .img-fluid {
   width: 100%;
 }
 
@@ -2141,7 +2142,7 @@ form label {
   }
 
   #cl-event .fh5co-heading,
-  #fh5co-couple-story .fh5co-heading {
+  #cl-accesso.fh5co-heading {
    margin-bottom: 0em;
   }
 
@@ -2165,7 +2166,7 @@ form label {
   }
 
   #cl-event .fh5co-heading,
-  #fh5co-couple-story .fh5co-heading {
+  #cl-accesso.fh5co-heading {
    margin-bottom: 0em;
   }
 
@@ -2181,7 +2182,7 @@ form label {
   }
 
   #cl-event .fh5co-heading,
-  #fh5co-couple-story .fh5co-heading {
+  #cl-accesso.fh5co-heading {
    margin-bottom: 0em;
   }
 
