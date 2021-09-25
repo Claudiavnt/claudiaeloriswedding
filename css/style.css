@@ -1454,7 +1454,8 @@ form label {
 #cl-contatti .form-control:-ms-input-placeholder {
   color: #7F8578;
 }
-#cl-contatti .btn {
+#cl-contatti .btn,
+#cl-event .btn {
   height: 54px;
   border: none !important;
   background: #AC887E;
