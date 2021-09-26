@@ -1093,9 +1093,12 @@ form label {
   #cl-event,
   #fh5co-couple-story,
   #fh5co-couple,
-  #cl-gallery,
   .fh5co-section {
     padding: 3em 0;
+  }
+
+  #cl-gallery {
+    padding: 3em 0 1em 0;
   }
 }
 
@@ -1465,6 +1468,7 @@ form label {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+  white-space: normal;
 }
 #cl-contatti .form-inline .form-group {
   width: 100% !important;
@@ -2092,7 +2096,7 @@ form label {
 }
 
 #cl-gallery{
-  padding: 2em 0;
+  padding: 2em 0 1em 0;
   clear: both;
 }
 
